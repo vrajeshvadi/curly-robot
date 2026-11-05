@@ -1,0 +1,42 @@
+:root {
+  --ground: #f2f5f2;
+  --surface: #ffffff;
+  --ink: #1d2a22;
+  --ink-soft: #5b6a60;
+  --line: #d6ded8;
+  --tractor: #e9b31b;
+  --tractor-ink: #1d2a22;
+  --field: #3f7d4f;
+  --silo: #386da3;
+  --rust: #b5481f;
+  --rust-soft: #fbe9e1;
+  --field-soft: #e3f0e6;
+  --focus: #386da3;
+
+  --font: 'Bricolage Grotesque Variable', system-ui, sans-serif;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.563rem;
+  --step-3: 1.953rem;
+  --gutter: 16px;
+  --radius-control: 10px;
+  --radius-sheet: 18px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --ground: #121a15;
+    --surface: #1b2620;
+    --ink: #e6eee8;
+    --ink-soft: #9fb0a5;
+    --line: #2d3b33;
+    --field: #6fbf82;
+    --silo: #79a9dc;
+    --rust: #ee8a5f;
+    --rust-soft: #3a231a;
+    --field-soft: #1e3526;
+    --focus: #79a9dc;
+    color-scheme: dark;
+  }
+}

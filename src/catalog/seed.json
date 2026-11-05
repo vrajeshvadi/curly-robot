@@ -1,0 +1,1632 @@
+{
+ "catalogVersion": 1,
+ "items": {
+  "wheat": {
+   "id": "wheat",
+   "name": "Wheat",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 2
+   }
+  },
+  "corn": {
+   "id": "corn",
+   "name": "Corn",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 5
+   }
+  },
+  "soybean": {
+   "id": "soybean",
+   "name": "Soybean",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 5,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 20
+   }
+  },
+  "sugarcane": {
+   "id": "sugarcane",
+   "name": "Sugarcane",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 7,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 30
+   }
+  },
+  "carrot": {
+   "id": "carrot",
+   "name": "Carrot",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 9,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 10
+   }
+  },
+  "indigo": {
+   "id": "indigo",
+   "name": "Indigo",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 13,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 120
+   }
+  },
+  "pumpkin": {
+   "id": "pumpkin",
+   "name": "Pumpkin",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 15,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 180
+   }
+  },
+  "cotton": {
+   "id": "cotton",
+   "name": "Cotton",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 18,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 150
+   }
+  },
+  "chili_pepper": {
+   "id": "chili_pepper",
+   "name": "Chili Pepper",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 25,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 240
+   }
+  },
+  "tomato": {
+   "id": "tomato",
+   "name": "Tomato",
+   "category": "crop",
+   "storage": "silo",
+   "unlockLevel": 30,
+   "source": {
+    "kind": "field",
+    "seedUsed": 1,
+    "harvestYield": 2,
+    "minutes": 360
+   }
+  },
+  "apple": {
+   "id": "apple",
+   "name": "Apple",
+   "category": "tree",
+   "storage": "silo",
+   "unlockLevel": 15,
+   "source": {
+    "kind": "tree",
+    "treeId": "apple_tree",
+    "yield": 2,
+    "minutes": 960
+   }
+  },
+  "raspberry": {
+   "id": "raspberry",
+   "name": "Raspberry",
+   "category": "tree",
+   "storage": "silo",
+   "unlockLevel": 19,
+   "source": {
+    "kind": "tree",
+    "treeId": "raspberry_bush",
+    "yield": 2,
+    "minutes": 1080
+   }
+  },
+  "cherry": {
+   "id": "cherry",
+   "name": "Cherry",
+   "category": "tree",
+   "storage": "silo",
+   "unlockLevel": 22,
+   "source": {
+    "kind": "tree",
+    "treeId": "cherry_tree",
+    "yield": 2,
+    "minutes": 1680
+   }
+  },
+  "blackberry": {
+   "id": "blackberry",
+   "name": "Blackberry",
+   "category": "tree",
+   "storage": "silo",
+   "unlockLevel": 26,
+   "source": {
+    "kind": "tree",
+    "treeId": "blackberry_bush",
+    "yield": 2,
+    "minutes": 1920
+   }
+  },
+  "blueberry": {
+   "id": "blueberry",
+   "name": "Blueberry",
+   "category": "tree",
+   "storage": "silo",
+   "unlockLevel": 30,
+   "source": {
+    "kind": "tree",
+    "treeId": "blueberry_bush",
+    "yield": 2,
+    "minutes": 1800
+   }
+  },
+  "egg": {
+   "id": "egg",
+   "name": "Egg",
+   "category": "animal",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "animal",
+    "animalId": "chicken",
+    "yield": 1,
+    "minutes": 20,
+    "ingredients": [
+     {
+      "itemId": "chicken_feed",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "milk": {
+   "id": "milk",
+   "name": "Milk",
+   "category": "animal",
+   "storage": "barn",
+   "unlockLevel": 6,
+   "source": {
+    "kind": "animal",
+    "animalId": "cow",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "cow_feed",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "bacon": {
+   "id": "bacon",
+   "name": "Bacon",
+   "category": "animal",
+   "storage": "barn",
+   "unlockLevel": 10,
+   "source": {
+    "kind": "animal",
+    "animalId": "pig",
+    "yield": 1,
+    "minutes": 240,
+    "ingredients": [
+     {
+      "itemId": "pig_feed",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "wool": {
+   "id": "wool",
+   "name": "Wool",
+   "category": "animal",
+   "storage": "barn",
+   "unlockLevel": 16,
+   "source": {
+    "kind": "animal",
+    "animalId": "sheep",
+    "yield": 1,
+    "minutes": 360,
+    "ingredients": [
+     {
+      "itemId": "sheep_feed",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "chicken_feed": {
+   "id": "chicken_feed",
+   "name": "Chicken Feed",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 3,
+   "source": {
+    "kind": "machine",
+    "machineId": "feed_mill",
+    "yield": 3,
+    "minutes": 5,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 2
+     },
+     {
+      "itemId": "corn",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "cow_feed": {
+   "id": "cow_feed",
+   "name": "Cow Feed",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 6,
+   "source": {
+    "kind": "machine",
+    "machineId": "feed_mill",
+    "yield": 3,
+    "minutes": 10,
+    "ingredients": [
+     {
+      "itemId": "soybean",
+      "qty": 2
+     },
+     {
+      "itemId": "corn",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "pig_feed": {
+   "id": "pig_feed",
+   "name": "Pig Feed",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 10,
+   "source": {
+    "kind": "machine",
+    "machineId": "feed_mill",
+    "yield": 3,
+    "minutes": 20,
+    "ingredients": [
+     {
+      "itemId": "carrot",
+      "qty": 2
+     },
+     {
+      "itemId": "soybean",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "sheep_feed": {
+   "id": "sheep_feed",
+   "name": "Sheep Feed",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 16,
+   "source": {
+    "kind": "machine",
+    "machineId": "feed_mill",
+    "yield": 3,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 3
+     },
+     {
+      "itemId": "soybean",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "bread": {
+   "id": "bread",
+   "name": "Bread",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 2,
+   "source": {
+    "kind": "machine",
+    "machineId": "bakery",
+    "yield": 1,
+    "minutes": 5,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "corn_bread": {
+   "id": "corn_bread",
+   "name": "Corn Bread",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 7,
+   "source": {
+    "kind": "machine",
+    "machineId": "bakery",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "corn",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "cookie": {
+   "id": "cookie",
+   "name": "Cookie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 10,
+   "source": {
+    "kind": "machine",
+    "machineId": "bakery",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     },
+     {
+      "itemId": "brown_sugar",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "raspberry_muffin": {
+   "id": "raspberry_muffin",
+   "name": "Raspberry Muffin",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 19,
+   "source": {
+    "kind": "machine",
+    "machineId": "bakery",
+    "yield": 1,
+    "minutes": 45,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 2
+     },
+     {
+      "itemId": "raspberry",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "blackberry_muffin": {
+   "id": "blackberry_muffin",
+   "name": "Blackberry Muffin",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 26,
+   "source": {
+    "kind": "machine",
+    "machineId": "bakery",
+    "yield": 1,
+    "minutes": 45,
+    "ingredients": [
+     {
+      "itemId": "wheat",
+      "qty": 1
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     },
+     {
+      "itemId": "blackberry",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "cream": {
+   "id": "cream",
+   "name": "Cream",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 6,
+   "source": {
+    "kind": "machine",
+    "machineId": "dairy",
+    "yield": 1,
+    "minutes": 20,
+    "ingredients": [
+     {
+      "itemId": "milk",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "butter": {
+   "id": "butter",
+   "name": "Butter",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 9,
+   "source": {
+    "kind": "machine",
+    "machineId": "dairy",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "milk",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "cheese": {
+   "id": "cheese",
+   "name": "Cheese",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 12,
+   "source": {
+    "kind": "machine",
+    "machineId": "dairy",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "milk",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "brown_sugar": {
+   "id": "brown_sugar",
+   "name": "Brown Sugar",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 7,
+   "source": {
+    "kind": "machine",
+    "machineId": "sugar_mill",
+    "yield": 1,
+    "minutes": 20,
+    "ingredients": [
+     {
+      "itemId": "sugarcane",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "white_sugar": {
+   "id": "white_sugar",
+   "name": "White Sugar",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 13,
+   "source": {
+    "kind": "machine",
+    "machineId": "sugar_mill",
+    "yield": 1,
+    "minutes": 40,
+    "ingredients": [
+     {
+      "itemId": "sugarcane",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "syrup": {
+   "id": "syrup",
+   "name": "Syrup",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 18,
+   "source": {
+    "kind": "machine",
+    "machineId": "sugar_mill",
+    "yield": 1,
+    "minutes": 90,
+    "ingredients": [
+     {
+      "itemId": "sugarcane",
+      "qty": 4
+     }
+    ]
+   }
+  },
+  "popcorn": {
+   "id": "popcorn",
+   "name": "Popcorn",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 8,
+   "source": {
+    "kind": "machine",
+    "machineId": "popcorn_pot",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "corn",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "buttered_popcorn": {
+   "id": "buttered_popcorn",
+   "name": "Buttered Popcorn",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 16,
+   "source": {
+    "kind": "machine",
+    "machineId": "popcorn_pot",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "corn",
+      "qty": 2
+     },
+     {
+      "itemId": "butter",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "chili_popcorn": {
+   "id": "chili_popcorn",
+   "name": "Chili Popcorn",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 25,
+   "source": {
+    "kind": "machine",
+    "machineId": "popcorn_pot",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "corn",
+      "qty": 2
+     },
+     {
+      "itemId": "chili_pepper",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "pancake": {
+   "id": "pancake",
+   "name": "Pancake",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 9,
+   "source": {
+    "kind": "machine",
+    "machineId": "bbq_grill",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "egg",
+      "qty": 3
+     },
+     {
+      "itemId": "brown_sugar",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "bacon_and_eggs": {
+   "id": "bacon_and_eggs",
+   "name": "Bacon and Eggs",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 11,
+   "source": {
+    "kind": "machine",
+    "machineId": "bbq_grill",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "bacon",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 4
+     }
+    ]
+   }
+  },
+  "hamburger": {
+   "id": "hamburger",
+   "name": "Hamburger",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 18,
+   "source": {
+    "kind": "machine",
+    "machineId": "bbq_grill",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "bread",
+      "qty": 2
+     },
+     {
+      "itemId": "bacon",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "fish_burger": {
+   "id": "fish_burger",
+   "name": "Fish Burger",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 27,
+   "source": {
+    "kind": "machine",
+    "machineId": "bbq_grill",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "bread",
+      "qty": 2
+     },
+     {
+      "itemId": "fish_fillet",
+      "qty": 1
+     },
+     {
+      "itemId": "chili_pepper",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "roasted_tomatoes": {
+   "id": "roasted_tomatoes",
+   "name": "Roasted Tomatoes",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 30,
+   "source": {
+    "kind": "machine",
+    "machineId": "bbq_grill",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "tomato",
+      "qty": 2
+     },
+     {
+      "itemId": "butter",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "carrot_pie": {
+   "id": "carrot_pie",
+   "name": "Carrot Pie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 14,
+   "source": {
+    "kind": "machine",
+    "machineId": "pie_oven",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "carrot",
+      "qty": 3
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     },
+     {
+      "itemId": "wheat",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "pumpkin_pie": {
+   "id": "pumpkin_pie",
+   "name": "Pumpkin Pie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 15,
+   "source": {
+    "kind": "machine",
+    "machineId": "pie_oven",
+    "yield": 1,
+    "minutes": 90,
+    "ingredients": [
+     {
+      "itemId": "pumpkin",
+      "qty": 3
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     },
+     {
+      "itemId": "wheat",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "bacon_pie": {
+   "id": "bacon_pie",
+   "name": "Bacon Pie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 18,
+   "source": {
+    "kind": "machine",
+    "machineId": "pie_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "bacon",
+      "qty": 3
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     },
+     {
+      "itemId": "wheat",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "apple_pie": {
+   "id": "apple_pie",
+   "name": "Apple Pie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 28,
+   "source": {
+    "kind": "machine",
+    "machineId": "pie_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "apple",
+      "qty": 3
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     },
+     {
+      "itemId": "wheat",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "fish_pie": {
+   "id": "fish_pie",
+   "name": "Fish Pie",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 28,
+   "source": {
+    "kind": "machine",
+    "machineId": "pie_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "fish_fillet",
+      "qty": 3
+     },
+     {
+      "itemId": "egg",
+      "qty": 1
+     },
+     {
+      "itemId": "wheat",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "sweater": {
+   "id": "sweater",
+   "name": "Sweater",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 17,
+   "source": {
+    "kind": "machine",
+    "machineId": "loom",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "wool",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "cotton_fabric": {
+   "id": "cotton_fabric",
+   "name": "Cotton Fabric",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 18,
+   "source": {
+    "kind": "machine",
+    "machineId": "loom",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "cotton",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "blue_woolly_hat": {
+   "id": "blue_woolly_hat",
+   "name": "Blue Woolly Hat",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 19,
+   "source": {
+    "kind": "machine",
+    "machineId": "loom",
+    "yield": 1,
+    "minutes": 90,
+    "ingredients": [
+     {
+      "itemId": "wool",
+      "qty": 1
+     },
+     {
+      "itemId": "indigo",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "blue_sweater": {
+   "id": "blue_sweater",
+   "name": "Blue Sweater",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 20,
+   "source": {
+    "kind": "machine",
+    "machineId": "loom",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "wool",
+      "qty": 2
+     },
+     {
+      "itemId": "indigo",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "cotton_shirt": {
+   "id": "cotton_shirt",
+   "name": "Cotton Shirt",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 19,
+   "source": {
+    "kind": "machine",
+    "machineId": "sewing_machine",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "cotton_fabric",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "wooly_chaps": {
+   "id": "wooly_chaps",
+   "name": "Wooly Chaps",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 21,
+   "source": {
+    "kind": "machine",
+    "machineId": "sewing_machine",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "cotton_fabric",
+      "qty": 1
+     },
+     {
+      "itemId": "wool",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "violet_dress": {
+   "id": "violet_dress",
+   "name": "Violet Dress",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 25,
+   "source": {
+    "kind": "machine",
+    "machineId": "sewing_machine",
+    "yield": 1,
+    "minutes": 180,
+    "ingredients": [
+     {
+      "itemId": "cotton_fabric",
+      "qty": 2
+     },
+     {
+      "itemId": "indigo",
+      "qty": 2
+     },
+     {
+      "itemId": "raspberry",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "carrot_cake": {
+   "id": "carrot_cake",
+   "name": "Carrot Cake",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 21,
+   "source": {
+    "kind": "machine",
+    "machineId": "cake_oven",
+    "yield": 1,
+    "minutes": 90,
+    "ingredients": [
+     {
+      "itemId": "carrot",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     },
+     {
+      "itemId": "cream",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "cream_cake": {
+   "id": "cream_cake",
+   "name": "Cream Cake",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 23,
+   "source": {
+    "kind": "machine",
+    "machineId": "cake_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "milk",
+      "qty": 1
+     },
+     {
+      "itemId": "cream",
+      "qty": 1
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "red_berry_cake": {
+   "id": "red_berry_cake",
+   "name": "Red Berry Cake",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 23,
+   "source": {
+    "kind": "machine",
+    "machineId": "cake_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "raspberry",
+      "qty": 1
+     },
+     {
+      "itemId": "cream",
+      "qty": 1
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     }
+    ]
+   }
+  },
+  "cheesecake": {
+   "id": "cheesecake",
+   "name": "Cheesecake",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 24,
+   "source": {
+    "kind": "machine",
+    "machineId": "cake_oven",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "cheese",
+      "qty": 2
+     },
+     {
+      "itemId": "egg",
+      "qty": 2
+     },
+     {
+      "itemId": "cream",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "silver_bar": {
+   "id": "silver_bar",
+   "name": "Silver Bar",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 24,
+   "source": {
+    "kind": "machine",
+    "machineId": "smelter",
+    "yield": 1,
+    "minutes": 480,
+    "ingredients": [
+     {
+      "itemId": "silver_ore",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "gold_bar": {
+   "id": "gold_bar",
+   "name": "Gold Bar",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 25,
+   "source": {
+    "kind": "machine",
+    "machineId": "smelter",
+    "yield": 1,
+    "minutes": 720,
+    "ingredients": [
+     {
+      "itemId": "gold_ore",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "platinum_bar": {
+   "id": "platinum_bar",
+   "name": "Platinum Bar",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 25,
+   "source": {
+    "kind": "machine",
+    "machineId": "smelter",
+    "yield": 1,
+    "minutes": 960,
+    "ingredients": [
+     {
+      "itemId": "platinum_ore",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "carrot_juice": {
+   "id": "carrot_juice",
+   "name": "Carrot Juice",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 26,
+   "source": {
+    "kind": "machine",
+    "machineId": "juice_press",
+    "yield": 1,
+    "minutes": 30,
+    "ingredients": [
+     {
+      "itemId": "carrot",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "apple_juice": {
+   "id": "apple_juice",
+   "name": "Apple Juice",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 28,
+   "source": {
+    "kind": "machine",
+    "machineId": "juice_press",
+    "yield": 1,
+    "minutes": 60,
+    "ingredients": [
+     {
+      "itemId": "apple",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "cherry_juice": {
+   "id": "cherry_juice",
+   "name": "Cherry Juice",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 30,
+   "source": {
+    "kind": "machine",
+    "machineId": "juice_press",
+    "yield": 1,
+    "minutes": 90,
+    "ingredients": [
+     {
+      "itemId": "cherry",
+      "qty": 3
+     }
+    ]
+   }
+  },
+  "vanilla_ice_cream": {
+   "id": "vanilla_ice_cream",
+   "name": "Vanilla Ice Cream",
+   "category": "made",
+   "storage": "barn",
+   "unlockLevel": 29,
+   "source": {
+    "kind": "machine",
+    "machineId": "ice_cream_maker",
+    "yield": 1,
+    "minutes": 120,
+    "ingredients": [
+     {
+      "itemId": "milk",
+      "qty": 1
+     },
+     {
+      "itemId": "cream",
+      "qty": 1
+     },
+     {
+      "itemId": "white_sugar",
+      "qty": 1
+     }
+    ]
+   }
+  },
+  "bolt": {
+   "id": "bolt",
+   "name": "Bolt",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "plank": {
+   "id": "plank",
+   "name": "Plank",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "duct_tape": {
+   "id": "duct_tape",
+   "name": "Duct Tape",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "nail": {
+   "id": "nail",
+   "name": "Nail",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "screw": {
+   "id": "screw",
+   "name": "Screw",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "wood_panel": {
+   "id": "wood_panel",
+   "name": "Wood Panel",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "land_deed": {
+   "id": "land_deed",
+   "name": "Land Deed",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "mallet": {
+   "id": "mallet",
+   "name": "Mallet",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "marker_stake": {
+   "id": "marker_stake",
+   "name": "Marker Stake",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "axe": {
+   "id": "axe",
+   "name": "Axe",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "saw": {
+   "id": "saw",
+   "name": "Saw",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "dynamite": {
+   "id": "dynamite",
+   "name": "Dynamite",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "tnt_barrel": {
+   "id": "tnt_barrel",
+   "name": "TNT Barrel",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "shovel": {
+   "id": "shovel",
+   "name": "Shovel",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "pickaxe": {
+   "id": "pickaxe",
+   "name": "Pickaxe",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 1,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "silver_ore": {
+   "id": "silver_ore",
+   "name": "Silver Ore",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 24,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "gold_ore": {
+   "id": "gold_ore",
+   "name": "Gold Ore",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 24,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "platinum_ore": {
+   "id": "platinum_ore",
+   "name": "Platinum Ore",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 24,
+   "source": {
+    "kind": "none"
+   }
+  },
+  "fish_fillet": {
+   "id": "fish_fillet",
+   "name": "Fish Fillet",
+   "category": "material",
+   "storage": "barn",
+   "unlockLevel": 27,
+   "source": {
+    "kind": "none"
+   }
+  }
+ },
+ "machines": {
+  "feed_mill": {
+   "id": "feed_mill",
+   "name": "Feed Mill",
+   "unlockLevel": 1
+  },
+  "bakery": {
+   "id": "bakery",
+   "name": "Bakery",
+   "unlockLevel": 2
+  },
+  "dairy": {
+   "id": "dairy",
+   "name": "Dairy",
+   "unlockLevel": 6
+  },
+  "sugar_mill": {
+   "id": "sugar_mill",
+   "name": "Sugar Mill",
+   "unlockLevel": 7
+  },
+  "popcorn_pot": {
+   "id": "popcorn_pot",
+   "name": "Popcorn Pot",
+   "unlockLevel": 8
+  },
+  "bbq_grill": {
+   "id": "bbq_grill",
+   "name": "BBQ Grill",
+   "unlockLevel": 9
+  },
+  "pie_oven": {
+   "id": "pie_oven",
+   "name": "Pie Oven",
+   "unlockLevel": 14
+  },
+  "loom": {
+   "id": "loom",
+   "name": "Loom",
+   "unlockLevel": 17
+  },
+  "sewing_machine": {
+   "id": "sewing_machine",
+   "name": "Sewing Machine",
+   "unlockLevel": 19
+  },
+  "cake_oven": {
+   "id": "cake_oven",
+   "name": "Cake Oven",
+   "unlockLevel": 21
+  },
+  "smelter": {
+   "id": "smelter",
+   "name": "Smelter",
+   "unlockLevel": 24
+  },
+  "juice_press": {
+   "id": "juice_press",
+   "name": "Juice Press",
+   "unlockLevel": 26
+  },
+  "ice_cream_maker": {
+   "id": "ice_cream_maker",
+   "name": "Ice Cream Maker",
+   "unlockLevel": 29
+  }
+ },
+ "animals": {
+  "chicken": {
+   "id": "chicken",
+   "name": "Chicken",
+   "unlockLevel": 1
+  },
+  "cow": {
+   "id": "cow",
+   "name": "Cow",
+   "unlockLevel": 6
+  },
+  "pig": {
+   "id": "pig",
+   "name": "Pig",
+   "unlockLevel": 10
+  },
+  "sheep": {
+   "id": "sheep",
+   "name": "Sheep",
+   "unlockLevel": 16
+  }
+ },
+ "trees": {
+  "apple_tree": {
+   "id": "apple_tree",
+   "name": "Apple Tree",
+   "unlockLevel": 15
+  },
+  "raspberry_bush": {
+   "id": "raspberry_bush",
+   "name": "Raspberry Bush",
+   "unlockLevel": 19
+  },
+  "cherry_tree": {
+   "id": "cherry_tree",
+   "name": "Cherry Tree",
+   "unlockLevel": 22
+  },
+  "blackberry_bush": {
+   "id": "blackberry_bush",
+   "name": "Blackberry Bush",
+   "unlockLevel": 26
+  },
+  "blueberry_bush": {
+   "id": "blueberry_bush",
+   "name": "Blueberry Bush",
+   "unlockLevel": 30
+  }
+ }
+}
